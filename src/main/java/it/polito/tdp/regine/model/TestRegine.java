@@ -8,10 +8,12 @@ public class TestRegine {
 		
 		Regine r = new Regine();
 		
-		List<Integer> soluzione;
+		//List<Integer> soluzione;
 		
-		soluzione = r.risolvi(2);
+		List<List<Integer>> soluzioni;
 		
-		System.out.println(soluzione);
+		soluzioni = r.risolvi(6);
+		
+		System.out.println(soluzioni);
 	}
 }
